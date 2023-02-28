@@ -182,7 +182,7 @@
    /* section2-ourcompany for MOBILE */
    @media screen and (max-width: 480px){
     .section2-ourcompany img { 
-      width: 400px;
+      width: 300px;
     }
    }
   
@@ -266,4 +266,7 @@
   .section3-contact img {
     width: 200px;
 
+  }
+  .section3-contact {
+    background: linear-gradient(#ffffff, #aed4fa);
   }
