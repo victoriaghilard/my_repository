@@ -128,7 +128,7 @@
    /* section3-index */
    .section3-index {
     height: fit-content;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #85dafc, #318be6e0);
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
