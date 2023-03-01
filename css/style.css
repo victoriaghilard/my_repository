@@ -177,14 +177,15 @@
     background-color: rgba(46, 55, 138, 0.438);
   }
   .section2-ourcompany img {
-    width: 500px;
+    
   }
    /* section2-ourcompany for MOBILE */
-   @media screen and (max-width: 480px){
-    .section2-ourcompany img { 
-      width: 300px;
+
+    
+
+    .section2-ourcompany .text {
+      width: 100%;
     }
-   }
   
    /*  section1-services */
  .section1-services { 
