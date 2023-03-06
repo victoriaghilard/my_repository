@@ -1,0 +1,14 @@
+// section1-ourcompany
+.section1-ourcompany { 
+    background-image: url(../images/union.png); 
+    @include section1; 
+    
+    @media screen and (max-width: 480px){
+        background-image: url(../images/union2.png);
+        @include section1-mobile;
+    }
+}
+// section2-ourcompany
+.cita {
+    background-color: rgba(46, 55, 138, 0.438);
+}

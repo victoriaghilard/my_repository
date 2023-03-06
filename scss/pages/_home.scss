@@ -1,0 +1,36 @@
+// section1-index 
+.section1-index {
+    background-image: url(../images/seguridad.png);
+    @include section1;
+
+    @media screen and (max-width: 480px){
+        @include section1-mobile;
+    }
+}
+// section2-index 
+.section2-index p {
+    font-size: 10px;
+}
+// section3-index 
+.section3-index {
+    height: fit-content;
+    background: linear-gradient(to right, #85dafc, #318be6e0);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow-y: auto;
+
+    @media screen and (max-width: 480px){
+        height: auto;
+    }
+
+    & .target {
+        width: 250px;
+
+        @media screen and (max-width: 480px){
+            width: 100px;
+        }
+    }
+}

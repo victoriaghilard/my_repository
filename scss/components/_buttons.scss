@@ -1,0 +1,40 @@
+.button {
+    background-color: $p-blue-color;
+    border-radius:8px;
+    display:flex;
+    cursor: pointer;
+    padding: 10px 20px; 
+    margin-top: 30px;
+    margin-left: 50px;
+
+    @media screen and (max-width: 480px){
+        background-color: $p-blue-color;
+        border-radius:8px;
+        display:flex;
+        cursor: pointer;
+        padding: 5px 10px; 
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1em;
+        font-weight: 500;  
+
+        @media screen and (max-width: 480px){
+            font-size:15px;
+            font-weight: 400;
+        }
+    }
+
+    &:hover {
+        background-color: darken($p-blue-color, 10%);
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}

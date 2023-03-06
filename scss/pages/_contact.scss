@@ -1,0 +1,18 @@
+//section1-contact
+.section1-contact { 
+    background-image: url(../images/back-co.png);
+    @include section1;
+
+    @media screen and (max-width: 480px) {
+        background-image: url(../images/back-co.png);
+        @include section1-mobile;
+    }
+}
+// section3-contact
+.section3-contact {
+    background: linear-gradient(#ffffff, #aed4fa);
+
+    & img {
+        width: 200px;
+    }
+}

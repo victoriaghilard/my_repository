@@ -1,0 +1,21 @@
+// section1-legislation 
+.section1-legislation { 
+    background-image: url(../images/leyes.png);
+    @include section1;
+
+    @media screen and (max-width: 480px){
+        background-image: url(../images/leyes2.png);
+        @include section1-mobile;
+    }
+}
+// section2-legislation 
+.section2-legislation img {
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 70%;
+
+    &:hover {
+        opacity: 95%;
+    }
+}

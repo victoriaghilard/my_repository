@@ -1,0 +1,15 @@
+// section1-services
+.section1-services { 
+    background-image: url(../images/servicios.png);
+    @include section1;
+
+    @media screen and (max-width: 480px) {
+        background-image: url(../images/servicios2.png);
+        @include section1-mobile;   
+    }
+}
+// section2-services
+.section2-services img {
+    width: 250px;
+    padding-top: 0px;
+}

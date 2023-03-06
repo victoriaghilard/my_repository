@@ -1,0 +1,255 @@
+.title {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  width: 80%;
+}
+@media screen and (max-width: 480px) {
+  .title {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    width: 80%;
+  }
+}
+
+.pretitle {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 300;
+}
+@media screen and (max-width: 480px) {
+  .pretitle {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 300;
+    width: 80%;
+  }
+}
+
+.footer {
+  display: grid;
+  background-color: #212529;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.footer-contact li {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: none;
+}
+@media screen and (max-width: 480px) {
+  .footer-contact li {
+    font-size: 12px;
+  }
+}
+
+.maps {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 10px;
+}
+.maps iframe {
+  width: 180px;
+  height: 130px;
+}
+@media screen and (max-width: 480px) {
+  .maps iframe {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+.button {
+  background-color: #00a3df;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 480px) {
+  .button {
+    background-color: #00a3df;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 500;
+}
+@media screen and (max-width: 480px) {
+  .button a {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.button:hover {
+  background-color: #007eac;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.section1-index {
+  background-image: url(../images/seguridad.png);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section1-index {
+    gap: 15px;
+  }
+}
+
+.section2-index p {
+  font-size: 10px;
+}
+
+.section3-index {
+  height: fit-content;
+  background: linear-gradient(to right, #85dafc, rgba(49, 139, 230, 0.8784313725));
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  overflow-y: auto;
+}
+@media screen and (max-width: 480px) {
+  .section3-index {
+    height: auto;
+  }
+}
+.section3-index .target {
+  width: 250px;
+}
+@media screen and (max-width: 480px) {
+  .section3-index .target {
+    width: 100px;
+  }
+}
+
+.section1-ourcompany {
+  background-image: url(../images/union.png);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section1-ourcompany {
+    background-image: url(../images/union2.png);
+    gap: 15px;
+  }
+}
+
+.cita {
+  background-color: rgba(46, 55, 138, 0.438);
+}
+
+.section1-services {
+  background-image: url(../images/servicios.png);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section1-services {
+    background-image: url(../images/servicios2.png);
+    gap: 15px;
+  }
+}
+
+.section2-services img {
+  width: 250px;
+  padding-top: 0px;
+}
+
+.section1-legislation {
+  background-image: url(../images/leyes.png);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section1-legislation {
+    background-image: url(../images/leyes2.png);
+    gap: 15px;
+  }
+}
+
+.section2-legislation img {
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 70%;
+}
+.section2-legislation img:hover {
+  opacity: 95%;
+}
+
+.section1-contact {
+  background-image: url(../images/back-co.png);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section1-contact {
+    background-image: url(../images/back-co.png);
+    gap: 15px;
+  }
+}
+
+.section3-contact {
+  background: linear-gradient(#ffffff, #aed4fa);
+}
+.section3-contact img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */

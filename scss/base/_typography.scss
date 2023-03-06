@@ -1,0 +1,25 @@
+.title {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    width: 80%;
+
+    @media screen and (max-width: 480px){
+        color: white;
+        font-size: 25px;
+        font-weight: 300;
+        width: 80%;
+    }
+}
+.pretitle {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 300; 
+
+    @media screen and (max-width: 480px){
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 300; 
+        width: 80%;
+    }
+}
