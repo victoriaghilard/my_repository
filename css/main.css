@@ -132,7 +132,7 @@
 
 .section3-index {
   height: fit-content;
-  background: linear-gradient(to right, #85dafc, rgba(49, 139, 230, 0.8784313725));
+  background: linear-gradient(to right, rgba(133, 218, 252, 0.631372549), rgba(49, 140, 230, 0.6156862745));
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -246,7 +246,7 @@
 }
 
 .section3-contact {
-  background: linear-gradient(#ffffff, #aed4fa);
+  background: linear-gradient(#ffffff, rgba(174, 212, 250, 0.2549019608));
 }
 .section3-contact img {
   width: 200px;
